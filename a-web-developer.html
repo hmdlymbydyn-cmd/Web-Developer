@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Web Developer | Professional Website Development</title>
+<meta name="description" content="Professional website design and development for businesses, stores, restaurants, clinics and personal brands. موقع احترافي سريع ومتجاوب.">
+<meta property="og:title" content="A Web Developer">
+<meta property="og:description" content="We turn your ideas into modern, fast, and responsive websites.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Cairo:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#050505;--fg:#f4f4f2;--mu:#9a9a96;--cd:rgba(255,255,255,.05);--bd:rgba(255,255,255,.12);--ac:#c9a96e;--ink:#050505;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme=light]{--bg:#f6f5f2;--fg:#0b0b0b;--mu:#5d5d59;--cd:rgba(0,0,0,.04);--bd:rgba(0,0,0,.12);--ac:#8a6a2f;--ink:#f6f5f2}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;height:100%}
+body{background:var(--bg);color:var(--fg);font:400 16px/1.65 'Bricolage Grotesque','Cairo',system-ui,sans-serif;transition:background .6s,color .6s;overflow-x:hidden}
+[dir=rtl] body{font-family:'Cairo','Bricolage Grotesque',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+.c{max-width:1180px;margin:auto;padding:0 22px}
+section{padding:84px 0}
+h1,h2,h3{line-height:1.15;font-weight:800;letter-spacing:-.02em}
+h1{font-size:clamp(38px,7vw,82px)}h2{font-size:clamp(28px,4vw,46px);margin-bottom:12px}h3{font-size:20px;margin-bottom:6px}
+.mu{color:var(--mu)}.lead{max-width:62ch;color:var(--mu);font-size:18px}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:18px;padding:26px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:border-color .3s,transform .3s,background .6s}
+.card:hover{border-color:var(--ac);transform:translateY(-4px)}
+.g{display:grid;gap:18px;margin-top:36px}.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.g3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.g4{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:99px;border:1px solid var(--bd);font-weight:600;transition:.3s}
+.btn:hover{border-color:var(--ac)}.bp{background:var(--fg);color:var(--ink);border-color:var(--fg)}.bp:hover{background:var(--ac);border-color:var(--ac);color:#050505}
+header{position:sticky;top:0;z-index:50;padding-top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 70%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+nav{display:flex;align-items:center;gap:14px;height:68px}.logo{font-weight:800;font-size:18px;margin-inline-end:auto}.logo b{color:var(--ac)}
+.lk{display:flex;gap:4px}.lk a{padding:8px 12px;border-radius:99px;color:var(--mu);font-size:15px;transition:.3s}.lk a:hover,.lk a.on{color:var(--fg);background:var(--cd)}
+.ib{width:40px;height:40px;border-radius:50%;border:1px solid var(--bd);display:grid;place-items:center;font-size:14px;font-weight:700}
+#bg{display:none}
+@media(max-width:940px){.lk{position:fixed;inset:68px 0 auto 0;top:calc(68px + env(safe-area-inset-top,0px));flex-direction:column;background:var(--bg);padding:14px 22px;border-bottom:1px solid var(--bd);display:none}.lk.open{display:flex}#bg{display:grid}}
+.hero{min-height:88vh;display:flex;align-items:center;position:relative;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;pointer-events:none}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(circle at 50% 40%,#000,transparent 70%);-webkit-mask-image:radial-gradient(circle at 50% 40%,#000,transparent 70%);opacity:.5}
+.hero .c{position:relative}.hero p{margin:22px 0 34px}.row{display:flex;gap:12px;flex-wrap:wrap}
+.ic{font-size:28px;margin-bottom:14px}.bn{color:var(--ac);font-size:14px;margin-top:10px}
+.pv{height:170px;border-radius:12px;margin-bottom:16px;position:relative;overflow:hidden;border:1px solid var(--bd)}
+.pv i{position:absolute;left:12%;right:12%;height:10px;border-radius:6px;background:rgba(255,255,255,.55)}
+.tg{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 16px}.tg span{font-size:12px;border:1px solid var(--bd);border-radius:99px;padding:2px 10px;color:var(--mu)}
+.st{font-size:clamp(40px,6vw,64px);font-weight:800;line-height:1}
+.pr{font-size:44px;font-weight:800}.pr small{font-size:15px;font-weight:400;color:var(--mu)}
+ul.f{list-style:none;padding:0;margin:18px 0 24px}ul.f li{padding:7px 0;border-bottom:1px solid var(--bd);color:var(--mu)}ul.f li:before{content:"✓";color:var(--ac);margin-inline-end:10px}
+.pop{border-color:var(--ac)}
+.q{padding:20px 24px}.q button{width:100%;display:flex;justify-content:space-between;font-weight:600;font-size:17px;text-align:start;gap:12px}.q div{max-height:0;overflow:hidden;color:var(--mu);transition:max-height .4s}.q.open div{max-height:200px;padding-top:12px}
+form{display:grid;gap:14px}input,select,textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--bd);background:var(--cd);color:var(--fg);font:inherit}select option{color:#000}
+.tl{border-inline-start:1px solid var(--bd);padding-inline-start:26px;margin-top:36px}.tl div{margin-bottom:28px;position:relative}.tl div:before{content:"";position:absolute;inset-inline-start:-31px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--ac)}
+.cta{text-align:center;padding:64px 22px}
+footer{border-top:1px solid var(--bd);padding:56px 0 30px;margin-top:40px}footer a{display:block;color:var(--mu);padding:3px 0}footer a:hover{color:var(--fg)}
+.fl{position:fixed;inset-inline-end:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:60;display:flex;flex-direction:column;gap:10px}
+.fl a,.fl button{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-size:22px;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+.wa{background:#25d366;color:#fff}.up{background:var(--fg);color:var(--ink);opacity:0;pointer-events:none;transition:.3s}.up.show{opacity:1;pointer-events:auto}
+#ld{position:fixed;inset:0;z-index:99;background:#050505;color:#f4f4f2;display:grid;place-items:center;font-size:26px;font-weight:800}
+#ld span{color:#c9a96e}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="ld"><div>A Web <span>Developer</span></div></div>
+<header><div class="c"><nav>
+<a class="logo" href="#/">A Web <b>Developer</b></a>
+<div class="lk" id="lk"></div>
+<button class="ib" id="lg" aria-label="Language"></button>
+<button class="ib" id="th" aria-label="Theme">◐</button>
+<button class="ib" id="bg" aria-label="Menu">☰</button>
+</nav></div></header>
+<main id="app"></main>
+<footer><div class="c" id="ft"></div></footer>
+<div class="fl"><a href="https://www.instagram.com/webdev.a26/" target="_blank" rel="noopener" aria-label="Instagram" style="background:linear-gradient(45deg,#f9a03f,#e1306c,#833ab4);color:#fff">◎</a><a class="wa" href="https://wa.me/962799694856" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a><button class="up" id="up" aria-label="Back to top">↑</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+const WA='https://wa.me/962799694856',IG='https://www.instagram.com/webdev.a26/',PH='0799694856';
+let L=0,TH='dark';
+try{L=+localStorage.getItem('l')||0;TH=localStorage.getItem('t')||'dark'}catch(e){}
+const p=a=>a[L],$=s=>document.querySelector(s);
+const NAV=[['home',['Home','الرئيسية']],['about',['About','من نحن']],['services',['Services','الخدمات']],['portfolio',['Portfolio','الأعمال']],['pricing',['Pricing','الأسعار']],['faq',['FAQ','الأسئلة']],['contact',['Contact','تواصل']]];
+const U={more:['View details','عرض التفاصيل'],all:['See all','عرض الكل'],start:['Start your project','ابدأ مشروعك'],work:['See our work','شاهد أعمالنا'],wa:['Chat on WhatsApp','تواصل عبر واتساب'],send:['Send via WhatsApp','أرسل عبر واتساب'],choose:['Choose plan','اختر الباقة'],pop:['Most popular','الأكثر طلباً']};
+const S=[['🏢',['Business Websites','مواقع الأعمال'],['A credible home for your brand online.','واجهة موثوقة لعلامتك على الإنترنت.'],['More trust, more leads','ثقة أكبر وعملاء أكثر']],
+['🏛',['Company Websites','مواقع الشركات'],['Multi-page sites that present your company with authority.','مواقع متعددة الصفحات تعرض شركتك باحترافية.'],['Clear structure, strong image','هيكل واضح وصورة قوية']],
+['🍽',['Restaurant Websites','مواقع المطاعم'],['Menus, galleries and table reservations.','قوائم طعام ومعارض وحجز طاولات.'],['More orders and bookings','طلبات وحجوزات أكثر']],
+['🛒',['E-commerce Stores','المتاجر الإلكترونية'],['Fast stores with cart, checkout and admin.','متاجر سريعة مع سلة ودفع ولوحة تحكم.'],['Sell 24/7','بيع على مدار الساعة']],
+['🚀',['Landing Pages','صفحات الهبوط'],['Single pages built to convert campaigns.','صفحات مصممة لرفع التحويل في حملاتك.'],['Higher conversion rates','معدل تحويل أعلى']],
+['👤',['Portfolio Websites','مواقع الأعمال الشخصية'],['A sharp personal brand for creatives and experts.','هوية شخصية أنيقة للمبدعين والخبراء.'],['Stand out from competitors','تميّز عن المنافسين']],
+['📅',['Booking Systems','أنظمة الحجز'],['Online appointments for clinics, salons and services.','حجز مواعيد للعيادات والصالونات والخدمات.'],['Fewer calls, fewer no-shows','مكالمات أقل وتأخير أقل']],
+['⚙',['Custom Web Applications','تطبيقات ويب مخصصة'],['Dashboards and tools built around your workflow.','لوحات وأدوات مبنية حول طريقة عملك.'],['Automate manual work','أتمتة العمل اليدوي']],
+['📱',['Responsive Design','تصميم متجاوب'],['Pixel-perfect on phones, tablets and desktops.','متقن على الجوال والتابلت والحاسوب.'],['Great on every screen','تجربة ممتازة على كل شاشة']],
+['🛠',['Website Maintenance','صيانة المواقع'],['Updates, backups, security and fixes.','تحديثات ونسخ احتياطي وحماية وإصلاحات.'],['Peace of mind','راحة بال']],
+['✨',['Website Redesign','إعادة تصميم المواقع'],['Modernize an outdated site without losing rankings.','تحديث موقعك القديم دون خسارة ترتيبه.'],['Fresh look, better results','مظهر جديد ونتائج أفضل']],
+['🔍',['SEO Optimization','تحسين محركات البحث'],['Technical SEO, speed and metadata.','تحسين تقني وسرعة وبيانات وصفية.'],['Get found on Google','ظهور أفضل في جوجل']]];
+const P=[['linear-gradient(135deg,#7a3b1d,#e0a26b)',['Restaurant Website','موقع مطعم'],['Menu, gallery and live table booking.','قائمة طعام ومعرض وحجز طاولات.'],'React · Tailwind · GSAP'],
+['linear-gradient(135deg,#143d59,#4aa3c7)',['Online Store','متجر إلكتروني'],['Catalogue, cart and fast checkout.','كتالوج وسلة ودفع سريع.'],'React · Node · Stripe'],
+['linear-gradient(135deg,#222,#777)',['Company Website','موقع شركة'],['Corporate presence with case studies.','حضور مؤسسي مع دراسات حالة.'],'React · Vite · Framer Motion'],
+['linear-gradient(135deg,#0f5b57,#7fd6c9)',['Medical Clinic Website','موقع عيادة طبية'],['Doctors, services and online appointments.','أطباء وخدمات ومواعيد أونلاين.'],'React · Tailwind · Booking API'],
+['linear-gradient(135deg,#3a2c63,#a08ae0)',['Real Estate Website','موقع عقارات'],['Listings with filters and map search.','عقارات مع فلاتر وخريطة بحث.'],'React · Maps · Node'],
+['linear-gradient(135deg,#5a1f2e,#e07b8e)',['Personal Portfolio','موقع شخصي'],['Case-study led portfolio for a creative.','معرض أعمال لمبدع قائم على دراسات الحالة.'],'React · GSAP · Vite']];
+const ST=[[120,'+',['Projects delivered','مشروع منجز']],[85,'+',['Happy clients','عميل سعيد']],[98,'%',['Client satisfaction','رضا العملاء']],[24,'h',['Average reply time','متوسط زمن الرد']]];
+const TS=[[['Our new site doubled online bookings in two months.','موقعنا الجديد ضاعف الحجوزات خلال شهرين.'],['Restaurant owner','صاحب مطعم']],[['Fast, clean and exactly what we asked for.','سريع ونظيف وبالضبط ما طلبناه.'],['Clinic manager','مديرة عيادة']],[['Professional communication from day one to launch.','تواصل احترافي من اليوم الأول حتى الإطلاق.'],['Store founder','مؤسس متجر']]];
+const WHY=[[['Fast by default','سرعة افتراضية'],['Optimized code and assets for quick loading.','كود وأصول محسّنة لتحميل سريع.']],[['Built for every screen','لكل الشاشات'],['Responsive layouts tested on real devices.','تصاميم متجاوبة مختبرة على أجهزة حقيقية.']],[['Arabic and English','عربي وإنجليزي'],['Full RTL support and bilingual content.','دعم كامل للعربية واللغتين.']],[['Clear communication','تواصل واضح'],['Direct contact with the developer, no middlemen.','تواصل مباشر مع المطوّر دون وسطاء.']]];
+const PL=[[['Starter','البداية'],45,['Single landing page','صفحة هبوط واحدة'],[['1 page, fully responsive','صفحة واحدة متجاوبة'],['Contact form','نموذج تواصل'],['Basic SEO','تحسين أساسي'],['7-day delivery','تسليم خلال 7 أيام']]],
+[['Business','الأعمال'],120,['Up to 6 pages','حتى 6 صفحات'],[['Up to 6 pages','حتى 6 صفحات'],['Arabic and English','عربي وإنجليزي'],['Animations and CMS-ready','حركات وجاهز للإدارة'],['Advanced SEO','تحسين متقدم'],['30 days support','دعم 30 يوماً']]],
+[['Premium','المميزة'],300,['Custom application or store','تطبيق أو متجر مخصص'],[['Unlimited pages','صفحات غير محدودة'],['Store or booking system','متجر أو نظام حجز'],['Custom design system','نظام تصميم خاص'],['Performance tuning','ضبط الأداء'],['90 days support','دعم 90 يوماً']]]];
+const FQ=[[['How long does a website take?','كم يستغرق إنشاء الموقع؟'],['Landing pages take about a week; larger sites take two to six weeks.','صفحات الهبوط حوالي أسبوع، والمواقع الأكبر من أسبوعين إلى ستة.']],
+[['Will my site work on mobile?','هل يعمل موقعي على الجوال؟'],['Yes. Every site is fully responsive and tested on real devices.','نعم، كل موقع متجاوب بالكامل ومختبر على أجهزة حقيقية.']],
+[['Can the site be in Arabic and English?','هل يمكن أن يكون الموقع بالعربية والإنجليزية؟'],['Yes, with a language switcher and full right-to-left support.','نعم، مع زر تبديل لغة ودعم كامل للاتجاه من اليمين لليسار.']],
+[['Do you offer maintenance?','هل تقدمون صيانة؟'],['Yes. Plans cover updates, backups, security and content changes.','نعم، تشمل التحديثات والنسخ الاحتياطي والحماية وتعديل المحتوى.']],
+[['Can you redesign my existing site?','هل يمكن إعادة تصميم موقعي الحالي؟'],['Yes, while keeping your content and search rankings safe.','نعم، مع الحفاظ على المحتوى وترتيبك في محركات البحث.']],
+[['How do I get started?','كيف أبدأ؟'],['Message us on WhatsApp or use the contact form and we will reply within a day.','راسلنا على واتساب أو عبر النموذج وسنرد خلال يوم.']]];
+const TL=[['2020',['Started building websites for local businesses.','بدأنا ببناء مواقع للأعمال المحلية.']],['2022',['Expanded into stores and booking systems.','توسعنا إلى المتاجر وأنظمة الحجز.']],['2024',['Moved to React, Vite and modern animation.','انتقلنا إلى React وVite وحركات حديثة.']],['2026',['Launched A Web Developer studio for clients worldwide.','أطلقنا استوديو A Web Developer لعملاء حول العالم.']]];
+const PT={home:['Professional Website Development | A Web Developer','تصميم وتطوير المواقع | A Web Developer'],about:['About','من نحن'],services:['Services','الخدمات'],portfolio:['Portfolio','الأعمال'],pricing:['Pricing','الأسعار'],faq:['FAQ','الأسئلة الشائعة'],contact:['Contact','تواصل معنا']};
+const DESC=['I provide professional website design and development services tailored to any project requirements. Whether you need a company website, online store, restaurant website, clinic platform, booking system, or a fully custom solution, every project is built with modern design, responsiveness, performance, and user experience in mind.','أقدم خدمات تصميم وتطوير مواقع إلكترونية احترافية لجميع أنواع المشاريع حسب الطلب. سواء كنت تحتاج موقع شركة أو متجر إلكتروني أو موقع مطعم أو عيادة أو نظام حجز أو أي فكرة خاصة بمشروعك، يتم تصميم الموقع بشكل عصري ومتجاوب مع جميع الأجهزة مع الاهتمام بالسرعة والأداء وتجربة المستخدم.'];
+const head=(t,s)=>`<div class="rv"><h2>${p(t)}</h2>${s?`<p class="lead">${p(s)}</p>`:''}</div>`;
+const sv=a=>`<div class="card rv"><div class="ic">${a[0]}</div><h3>${p(a[1])}</h3><p class="mu">${p(a[2])}</p><div class="bn">✓ ${p(a[3])}</div></div>`;
+const pj=a=>`<div class="card rv"><div class="pv" style="background:${a[0]}"><i style="top:22px;width:40%"></i><i style="top:46px;height:48px;opacity:.25"></i><i style="top:112px;width:60%;opacity:.4"></i></div><h3>${p(a[1])}</h3><p class="mu">${p(a[2])}</p><div class="tg">${a[3].split(' · ').map(x=>`<span>${x}</span>`).join('')}</div><a class="btn" href="#/contact">${p(U.more)}</a></div>`;
+const cta=`<section><div class="c"><div class="card cta rv"><h2>${L?'جاهز لبدء مشروعك؟':'Ready to start your project?'}</h2><p class="lead" style="margin:0 auto 26px">${L?'أخبرنا عن فكرتك وسنحوّلها إلى موقع يحقق أهدافك.':'Tell us your idea and we will turn it into a website that meets your goals.'}</p><div class="row" style="justify-content:center"><a class="btn bp" href="${WA}" target="_blank" rel="noopener">${p(U.wa)}</a><a class="btn" href="#/contact">${p(U.start)}</a></div></div></div></section>`;
+const hdr=k=>`<section style="padding-bottom:0"><div class="c rv"><h1 style="font-size:clamp(34px,5vw,60px)">${p(PT[k])}</h1></div></section>`;
+const pages={
+home:()=>`<section class="hero"><div class="grid-bg"></div><div class="orb" id="o1" style="width:420px;height:420px;background:var(--ac);top:-80px;inset-inline-start:-60px"></div><div class="orb" id="o2" style="width:380px;height:380px;background:#6f7cff;bottom:-100px;inset-inline-end:-40px;opacity:.2"></div><div class="c"><h1 class="h1">${L?'احترافية في تصميم وتطوير المواقع الإلكترونية':'Professional Website Development'}</h1><p class="lead h1">${L?'نحوّل أفكارك إلى مواقع عصرية سريعة ومتجاوبة تحقق أهداف مشروعك':'We turn your ideas into modern, fast, and responsive websites that help your business grow'}</p><div class="row h1"><a class="btn bp" href="#/contact">${p(U.start)}</a><a class="btn" href="#/portfolio">${p(U.work)}</a></div></div></section>
+<section><div class="c">${head(['What we build','ما نبنيه'],DESC)}<div class="g g3">${S.slice(0,6).map(sv).join('')}</div><p style="margin-top:26px"><a class="btn" href="#/services">${p(U.all)}</a></p></div></section>
+<section><div class="c">${head(['Selected work','أعمال مختارة'])}<div class="g g3">${P.slice(0,3).map(pj).join('')}</div><p style="margin-top:26px"><a class="btn" href="#/portfolio">${p(U.all)}</a></p></div></section>
+<section><div class="c">${head(['Why choose us','لماذا نحن'])}<div class="g g4">${WHY.map(w=>`<div class="card rv"><h3>${p(w[0])}</h3><p class="mu">${p(w[1])}</p></div>`).join('')}</div></div></section>
+<section><div class="c"><div class="g g4">${ST.map(s=>`<div class="rv"><div class="st"><span class="cn" data-n="${s[0]}">0</span>${s[1]}</div><p class="mu">${p(s[2])}</p></div>`).join('')}</div></div></section>
+<section><div class="c">${head(['What clients say','آراء العملاء'])}<div class="g g3">${TS.map(t=>`<div class="card rv"><p>“${p(t[0])}”</p><p class="mu" style="margin-top:14px">${p(t[1])}</p></div>`).join('')}</div></div></section>${cta}`,
+about:()=>`${hdr('about')}<section><div class="c"><p class="lead rv">${p(DESC)}</p><div class="g g2"><div class="card rv"><h3>${L?'رؤيتنا':'Vision'}</h3><p class="mu">${L?'أن نكون الاستوديو الأول للمواقع السريعة والأنيقة في المنطقة.':'To be the regional studio people trust for fast, elegant websites.'}</p></div><div class="card rv"><h3>${L?'مهمتنا':'Mission'}</h3><p class="mu">${L?'تحويل أفكار العملاء إلى منتجات رقمية تحقق نتائج قابلة للقياس.':'To turn client ideas into digital products with measurable results.'}</p></div></div>${head(['Why clients choose us','لماذا يختارنا العملاء'])}<div class="g g4">${WHY.map(w=>`<div class="card rv"><h3>${p(w[0])}</h3><p class="mu">${p(w[1])}</p></div>`).join('')}</div><div class="rv" style="margin-top:56px"><h2>${L?'رحلتنا':'Our timeline'}</h2></div><div class="tl">${TL.map(t=>`<div class="rv"><h3>${t[0]}</h3><p class="mu">${p(t[1])}</p></div>`).join('')}</div></div></section>${cta}`,
+services:()=>`${hdr('services')}<section><div class="c"><div class="g g3" style="margin-top:0">${S.map(sv).join('')}</div></div></section>${cta}`,
+portfolio:()=>`${hdr('portfolio')}<section><div class="c"><div class="g g3" style="margin-top:0">${P.map(pj).join('')}</div></div></section>${cta}`,
+pricing:()=>`${hdr('pricing')}<section><div class="c"><p class="mu" style="margin-bottom:8px">${L?'أسعار البدء تقريبية وتختلف حسب متطلبات مشروعك.':'Starting prices are estimates and vary with your requirements.'}</p><div class="g g3">${PL.map((x,i)=>`<div class="card rv ${i==1?'pop':''}">${i==1?`<div class="bn" style="margin:0 0 8px">${p(U.pop)}</div>`:''}<h3>${p(x[0])}</h3><p class="mu">${p(x[2])}</p><div class="pr" style="margin-top:14px">$${x[1]}<small> ${L?'ابتداءً من':'from'}</small></div><ul class="f">${x[3].map(f=>`<li>${p(f)}</li>`).join('')}</ul><a class="btn ${i==1?'bp':''}" href="#/contact">${p(U.choose)}</a></div>`).join('')}</div></div></section>`,
+faq:()=>`${hdr('faq')}<section><div class="c" style="max-width:820px"><div style="display:grid;gap:12px">${FQ.map(f=>`<div class="card q rv"><button>${p(f[0])}<span>＋</span></button><div>${p(f[1])}</div></div>`).join('')}</div></div></section>${cta}`,
+contact:()=>`${hdr('contact')}<section><div class="c g g2" style="margin-top:0"><div class="card rv"><h3>${L?'الهاتف':'Phone'}</h3><p><a href="tel:${PH}" dir="ltr">${PH}</a></p><h3 style="margin-top:18px">Instagram</h3><p><a href="${IG}" target="_blank" rel="noopener" dir="ltr">@webdev.a26</a></p><div class="row" style="margin-top:24px"><a class="btn bp" href="${WA}" target="_blank" rel="noopener">${p(U.wa)}</a><a class="btn" href="${IG}" target="_blank" rel="noopener">${L?'تواصل عبر إنستغرام':'Message on Instagram'}</a></div></div>
+<form class="card rv" id="cf"><input name="n" required placeholder="${L?'الاسم':'Name'}"><input name="e" type="email" required placeholder="${L?'البريد الإلكتروني':'Email'}"><input name="p" type="tel" placeholder="${L?'الهاتف':'Phone'}"><select name="t">${(L?['موقع شركة','متجر إلكتروني','موقع مطعم','موقع عيادة','نظام حجز','مشروع مخصص']:['Company website','Online store','Restaurant website','Clinic website','Booking system','Custom project']).map(o=>`<option>${o}</option>`).join('')}</select><textarea name="m" rows="5" required placeholder="${L?'رسالتك':'Message'}"></textarea><button class="btn bp" style="justify-content:center">${p(U.send)}</button></form></div></section>`};
+function chrome(){
+ document.documentElement.lang=L?'ar':'en';document.documentElement.dir=L?'rtl':'ltr';document.documentElement.dataset.theme=TH;
+ $('#lg').textContent=L?'EN':'ع';
+ const pg=cur();
+ $('#lk').innerHTML=NAV.map(n=>`<a href="#/${n[0]=='home'?'':n[0]}" class="${n[0]==pg?'on':''}">${p(n[1])}</a>`).join('');
+ $('#ft').innerHTML=`<div class="g g4" style="margin-top:0"><div><div class="logo">A Web <b>Developer</b></div><p class="mu" style="margin-top:8px">${L?'مواقع احترافية سريعة ومتجاوبة.':'Fast, responsive, professional websites.'}</p><a href="${IG}" target="_blank" rel="noopener">Instagram</a><a href="${WA}" target="_blank" rel="noopener">WhatsApp</a></div><div><h3>${L?'روابط سريعة':'Quick links'}</h3>${NAV.map(n=>`<a href="#/${n[0]=='home'?'':n[0]}">${p(n[1])}</a>`).join('')}</div><div><h3>${L?'الخدمات':'Services'}</h3>${S.slice(0,5).map(s=>`<a href="#/services">${p(s[1])}</a>`).join('')}</div><div><h3>${L?'تواصل':'Contact'}</h3><a href="tel:${PH}" dir="ltr">${PH}</a><a href="${WA}" target="_blank" rel="noopener">${p(U.wa)}</a></div></div><p class="mu" style="margin-top:36px;font-size:14px">© 2026 A Web Developer. ${L?'جميع الحقوق محفوظة.':'All rights reserved.'}</p>`;
+}
+const cur=()=>(location.hash.replace('#/','')||'home').split('?')[0].replace(/^$/,'home');
+function render(first){
+ let pg=cur();if(!pages[pg])pg='home';
+ chrome();document.title=pg=='home'?p(PT.home):p(PT[pg])+' | A Web Developer';
+ const a=$('#app');a.innerHTML=pages[pg]();window.scrollTo(0,0);$('#lk').classList.remove('open');
+ gsap.fromTo(a,{opacity:0,y:14},{opacity:1,y:0,duration:.5});
+ if(window.ScrollTrigger){ScrollTrigger.getAll().forEach(t=>t.kill());gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.rv').forEach(el=>gsap.from(el,{y:36,opacity:0,duration:.8,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 92%'}}));
+  gsap.utils.toArray('.cn').forEach(el=>{const o={v:0};gsap.to(o,{v:+el.dataset.n,duration:2,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%'},onUpdate:()=>el.textContent=Math.round(o.v)})})}
+ if($('.h1')){gsap.from('.h1',{y:50,opacity:0,duration:1.1,stagger:.18,ease:'power4.out',delay:first?1.1:.2});
+  gsap.to('#o1',{x:90,y:60,duration:9,repeat:-1,yoyo:true,ease:'sine.inOut'});gsap.to('#o2',{x:-80,y:-50,duration:11,repeat:-1,yoyo:true,ease:'sine.inOut'})}
+ document.querySelectorAll('.q button').forEach(b=>b.onclick=()=>{const q=b.parentElement,o=q.classList.toggle('open');b.lastChild.textContent=o?'－':'＋'});
+ const f=$('#cf');if(f)f.onsubmit=e=>{e.preventDefault();const d=new FormData(f);const m=`${d.get('t')}\n${L?'الاسم':'Name'}: ${d.get('n')}\n${L?'البريد':'Email'}: ${d.get('e')}\n${L?'الهاتف':'Phone'}: ${d.get('p')}\n\n${d.get('m')}`;window.open(WA+'?text='+encodeURIComponent(m),'_blank')};
+}
+window.addEventListener('hashchange',()=>render());
+$('#lg').onclick=()=>{L=1-L;try{localStorage.setItem('l',L)}catch(e){}render()};
+$('#th').onclick=()=>{TH=TH=='dark'?'light':'dark';try{localStorage.setItem('t',TH)}catch(e){}document.documentElement.dataset.theme=TH};
+$('#bg').onclick=()=>$('#lk').classList.toggle('open');
+$('#up').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
+addEventListener('scroll',()=>$('#up').classList.toggle('show',scrollY>600));
+render(true);
+setTimeout(()=>gsap.to('#ld',{opacity:0,duration:.6,onComplete:()=>$('#ld').remove()}),700);
+</script>
+</body>
+</html>
